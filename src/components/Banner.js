@@ -55,7 +55,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Website</span>
                 <h1>{`Hi! I'm Nhat Nguyen,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Pursuing a Bachelor of Computer Science with a focus on Software Development. I thrive on solving complex problems and turning ideas into polished, user-centered experiences. Detail-oriented and driven by growth, I bring both technical rigor and a collaborative mindset to everything I build.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.location.href = 'mailto:nhatmn114@gmail.com'}>Let's Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
