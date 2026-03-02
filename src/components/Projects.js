@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projBlackrock from "../assets/img/proj-blackrock.png";
+import projEsg from "../assets/img/proj-esg.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,14 +15,14 @@ export const Projects = () => {
     {
       title: "BlackRock Risk Dashboard",
       description: "Full-stack financial risk analytics dashboard",
-      imgUrl: projImg1,
+      imgUrl: projBlackrock,
       url: "https://blackrock-risk-dashboard.vercel.app",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      url: "",
+      title: "ESG Screener",
+      description: "Environmental, Social & Governance stock screening tool",
+      imgUrl: projEsg,
+      url: "https://esg-screener.vercel.app/",
     },
     {
       title: "Business Startup",
