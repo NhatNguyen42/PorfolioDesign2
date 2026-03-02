@@ -11,34 +11,40 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "BlackRock Risk Dashboard",
+      description: "Full-stack financial risk analytics dashboard",
       imgUrl: projImg1,
+      url: "https://blackrock-risk-dashboard.vercel.app",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
+      url: "",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      url: "",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
+      url: "",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
+      url: "",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      url: "",
     },
   ];
 
@@ -51,7 +57,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Dummy Projects</p>
+                <p>A selection of projects I've built — click any card to view the live site.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
