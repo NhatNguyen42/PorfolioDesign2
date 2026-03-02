@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Col, Row, Alert } from "react-bootstrap";
 
 export const Newsletter = ({ status, message, onValidated }) => {
   const [email, setEmail] = useState('');
@@ -8,6 +7,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
     if (status === 'success') clearFields();
   }, [status])
 
+  // eslint-disable-next-line no-unused-vars
   const handleSubmit = (e) => {
     e.preventDefault();
     email &&
